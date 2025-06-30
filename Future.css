@@ -1,0 +1,153 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+
+
+  .navbar {
+    background-color: #16162b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+  }
+  
+  .nav-left,
+  .nav-center,
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-left img {
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-center {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .nav-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #facc15; 
+  }
+  
+  .nav-right a {
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-right a:hover {
+    color: #facc15;
+  }
+
+  
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #202040;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+  
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+  }
+  
+  
+  .info,
+  .info2,
+  .info3,
+  .info4 {
+    margin-bottom: 25px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  input[type="file"],
+  input[type="password"],
+  input[type="id"],
+  input[type="address"],
+  select {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #121232;
+    color: white;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="date"]:focus,
+  input[type="file"]:focus,
+  select:focus {
+    border: 1px solid #ffd700;
+    background-color: #181846;
+  }
+  
+  
+  input[type="radio"] {
+    margin-right: 8px;
+    transform: scale(1.1);
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #ffd700;
+    color: #1a1a2e;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f5c400;
+  }
