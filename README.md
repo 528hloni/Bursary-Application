@@ -1,13 +1,13 @@
-## "Bursary-Application" 📖
+## "Bursary-Application" 
 
 *This website is a HTML-CSS project created to allow students to apply for a Bursary called Future Bursary. This project was created as part of my frontend web development practice*
 
-##  Features 📖
+##  Features 
 - Bursary application
 
-## Tech Stack 📖
+## Tech Stack 
 - HTML5
 - CSS3
 
- ##  Demo  📖
+ ##  Demo  
  ![Demo](https://github.com/528hloni/Bursary-Application/blob/main/Demo/Demo%20vid.gif)
